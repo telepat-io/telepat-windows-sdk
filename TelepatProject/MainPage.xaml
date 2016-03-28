@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="TelepatProject.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:TelepatProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Grid_Loaded">
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            
+            <Button x:Name="button" Content="Login" IsEnabled="False" Click="Button_Click" Margin="3" />
+
+            <Button x:Name="button1" Content="Logout" IsEnabled="False" Click="button1_Click" Margin="3" />
+
+            <Button x:Name="button3" Content="Test" IsEnabled="False" Click="button3_Click"  Margin="3" />
+
+            <Button x:Name="button4" Content="Test" IsEnabled="False" Click="button4_Click"  Margin="3" />
+
+        </StackPanel>
+        
+    </Grid>
+</Page>
