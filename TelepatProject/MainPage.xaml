@@ -9,15 +9,15 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Loaded="Grid_Loaded">
 
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+        <StackPanel x:Name="buttonContainer" HorizontalAlignment="Center" VerticalAlignment="Center">
             
-            <Button x:Name="button" Content="Login" IsEnabled="False" Click="Button_Click" Margin="3" />
+            <Button x:Name="register" Content="Register User" IsEnabled="False" HorizontalAlignment="Stretch" Click="register_Click" Margin="3" />
 
-            <Button x:Name="button1" Content="Logout" IsEnabled="False" Click="button1_Click" Margin="3" />
+            <Button x:Name="login"    Content="Login"         IsEnabled="False" HorizontalAlignment="Stretch" Click="login_Click"    Margin="3" />
 
-            <Button x:Name="button3" Content="Test" IsEnabled="False" Click="button3_Click"  Margin="3" />
+            <Button x:Name="logout"   Content="Logout"        IsEnabled="False" HorizontalAlignment="Stretch" Click="logout_Click"   Margin="3" />
 
-            <Button x:Name="button4" Content="Test" IsEnabled="False" Click="button4_Click"  Margin="3" />
+            <Button x:Name="contexts" Content="Get contexts"  IsEnabled="False" HorizontalAlignment="Stretch" Click="contexts_Click" Margin="3" />
 
         </StackPanel>
         
